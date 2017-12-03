@@ -1,0 +1,36 @@
+
+.imgDiv {
+    height: 300px;
+    width: 300px; 
+}
+
+img {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+}
+
+.description {
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    color: white;
+    padding: 50px;
+}
+
+.container-fluid {
+    background-color: #a7c4a2;
+}
+
+.galleryItem {
+    margin: 20px;
+}
+
+.imageData {
+    margin: 10px;
+}
+
+input {
+    align-self: center;
+}
