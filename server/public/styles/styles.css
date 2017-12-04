@@ -33,4 +33,5 @@ img {
 
 .commentSection {
     margin: 5px;
+    overflow-y: scroll
 }

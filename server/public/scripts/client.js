@@ -10,7 +10,7 @@ app.controller('GalleryController', ['$http', function($http){
         imageDescription: 'Look at that snoot',
         showDescription: false,
         viewCount: 0,
-        omgCount: 0
+        omgCount: 0,
         },
         {imagePath: 'images/imageTwo.jpg',
         imageDescription: 'Sleepy Feets',
@@ -24,20 +24,20 @@ app.controller('GalleryController', ['$http', function($http){
         viewCount: 0,
         omgCount: 0
         },
-        {imagePath: 'images/imageThree.jpg',
-        imageDescription: 'Serene Socks',
+        {imagePath: 'images/imageFour.jpg',
+        imageDescription: 'Spinner AKA Grumpy Grandpa and John',
         showDescription: false,
         viewCount: 0,
         omgCount: 0
         },
-        {imagePath: 'images/imageThree.jpg',
-        imageDescription: 'Serene Socks',
+        {imagePath: 'images/imageFive.jpg',
+        imageDescription: 'On second thought, let us not go to Camelot. It is a silly place.',
         showDescription: false,
         viewCount: 0,
         omgCount: 0
         },
-        {imagePath: 'images/imageThree.jpg',
-        imageDescription: 'Serene Socks',
+        {imagePath: 'images/imageSix.jpg',
+        imageDescription: 'Lazy boat day with Sam and Kdawg - featuring Noel',
         showDescription: false,
         viewCount: 0,
         omgCount: 0
@@ -53,7 +53,5 @@ app.controller('GalleryController', ['$http', function($http){
     self.omg = function(imageObject){
         console.log('O M G');
         imageObject.omgCount ++;
-    }
-
-
+    };
 }])
