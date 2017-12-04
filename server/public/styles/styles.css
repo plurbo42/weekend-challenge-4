@@ -16,7 +16,7 @@ img {
     text-align: center;
     position: relative;
     color: white;
-    padding: 50px;
+    padding-top: 200px;
 }
 
 .container-fluid {
@@ -29,9 +29,4 @@ img {
 
 .imageData {
     margin: 10px;
-}
-
-.commentSection {
-    margin: 5px;
-    overflow-y: scroll
 }
