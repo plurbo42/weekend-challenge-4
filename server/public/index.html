@@ -15,7 +15,7 @@
 
 <body ng-controller="GalleryController as vm">
     <div class=container-fluid>
-        <h1>Hello</h1>
+        <h1>Gallery</h1>
         <div ng-repeat="image in vm.imageArray" class="col-md-4">
             <div class="imgDiv">
                 <img ng-src={{image.imagePath}} ng-click="vm.clickImage(image)"></img>
